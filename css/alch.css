@@ -27,6 +27,7 @@ header { padding: 40px 0; margin-bottom: 40px; }
 .intro { margin-bottom: 40px; }
 .intro__pre, .intro__post { text-transform: uppercase; letter-spacing: 4px; }
 .intro__main { font-size: 1.8rem; line-height: 1.2; font-weight: bold; margin: 10px 0 20px; }
+h1 { font-size: 1.8rem; line-height: 1.2; font-weight: bold; margin: 10px 0 20px; }
 @media (min-width: 640px) { .intro__main { font-size: 2.2rem; max-width: 60%; } }
 
 .contact a { margin-right: 20px; text-decoration: none; color: black !important; background: rgba(245, 215, 110, 0.5); transition: all linear .2s; }
@@ -47,7 +48,7 @@ dt, dd { display: inline-block; vertical-align: top; margin-bottom: 40px; }
   .about dt { width: 20%; padding-right: 40px; }
   .about dd { width: 80%; } }
 
-
+h2 { margin: 0; font-weight: bold; font-size: 1.2rem; }
 .title { margin: 0; font-weight: bold; font-size: 1.2rem; }
 
 .subsection { font-style: italic; }
