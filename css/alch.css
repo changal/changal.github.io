@@ -22,7 +22,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 body { font-family: "Lora", Helvetica, Arial, sans-serif, serif; font-size: 16px; line-height: 1.4; }
 
 header { padding: 40px 0; margin-bottom: 40px; }
-@media (min-width: 640px) { header { padding: 200px 0 60px; margin-bottom: 60px; } }
+@media (min-width: 640px) { header { padding: 120px 0 60px; margin-bottom: 60px; } }
 
 .intro { margin-bottom: 40px; }
 .intro__pre, .intro__post { text-transform: uppercase; letter-spacing: 4px; }
@@ -39,6 +39,10 @@ a:hover { color: #009CD2; text-decoration: none; }
 .footer { padding: 40px 20px; text-align: center; border-top: 1px solid #edefee; }
 .footer__title { font-size: 1.2rem; font-weight: bold; }
 .footer__subtitle { text-transform: capitalize; }
+
+.alignright {float: none;}
+
+@media (min-width: 640px) { .alignleft {float: left; } .alignright {float: right; } }
 
 dl { margin-bottom: 20px; }
 
