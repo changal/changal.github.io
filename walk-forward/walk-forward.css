@@ -1,0 +1,35 @@
+body {
+    max-width: 800px;
+    font-family: "Radley", serif;
+    margin: 0 auto;
+    line-height: 1.7;
+    font-size: 20px;
+    color: #333;
+    padding: 1.5em 1em 0 1em;
+    text-rendering: optimizeLegibility;
+    height: 100%;
+    text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        max-width: 100%;
+        padding: 1em
+    }
+}
+
+p a {
+    color: #000;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: #009CD2;
+}
+
+p.cite {
+    padding-top: .5em;
+    text-align: right;
+    padding-bottom: 1em;
+    font-size: 16px;
+}
